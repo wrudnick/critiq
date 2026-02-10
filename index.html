@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critiq — Music Reviews, Ratings, and News</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="/" class="logo">CRITIQ</a>
+      <div class="nav-links">
+        <a href="#" class="active">Reviews</a>
+        <a href="#">Lists</a>
+        <a href="#">Features</a>
+        <a href="#">News</a>
+        <a href="#">The Pitch</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Cover Story -->
+    <section class="hero hero-disaster">
+      <div class="hero-badge hero-badge-worst">Worst New Music</div>
+      <a href="the-molting.html" class="hero-inner">
+        <div class="hero-image">
+          <div class="album-art hero-art" style="--hue: 75; --sat: 80%"></div>
+        </div>
+        <div class="hero-text">
+          <div class="hero-meta">
+            <span class="artist-name">Moltslack</span>
+          </div>
+          <h1>THE MOLTING</h1>
+          <p class="hero-blurb">An AI-generated catastrophe of NumPy arrays and Korg M1 presets masquerading as music. Twelve tracks. Thirty minutes. Zero reason for any of it to exist. We have never given this score before. We hope to never give it again.</p>
+          <div class="hero-score hero-score-zero"><span>0.0</span></div>
+          <div class="hero-byline">By <strong>Marcus Hale</strong></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Latest Reviews -->
+    <section class="reviews-section">
+      <h2 class="section-title">Latest Reviews</h2>
+      <div class="reviews-grid">
+
+        <a href="review-neon-cathedral.html" class="review-card">
+          <div class="album-art" style="--hue: 280; --sat: 55%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Art Pop</span>
+            <h3 class="album-title">Neon Cathedral</h3>
+            <p class="artist">Lana Mori</p>
+            <div class="score" data-score="high">9.2</div>
+          </div>
+        </a>
+
+        <a href="review-rust-belt.html" class="review-card">
+          <div class="album-art" style="--hue: 25; --sat: 65%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Indie Rock</span>
+            <h3 class="album-title">Rust Belt Lullabies</h3>
+            <p class="artist">The Gravel Choir</p>
+            <div class="score" data-score="high">8.4</div>
+          </div>
+        </a>
+
+        <a href="review-phantom-limb.html" class="review-card">
+          <div class="album-art" style="--hue: 190; --sat: 50%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Electronic</span>
+            <h3 class="album-title">Phantom Limb</h3>
+            <p class="artist">VASKI</p>
+            <div class="score" data-score="high">8.8</div>
+          </div>
+        </a>
+
+        <a href="review-dirt-church.html" class="review-card">
+          <div class="album-art" style="--hue: 40; --sat: 45%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Country</span>
+            <h3 class="album-title">Dirt Church</h3>
+            <p class="artist">Jolene Wilder</p>
+            <div class="score" data-score="mid">7.6</div>
+          </div>
+        </a>
+
+        <a href="the-molting.html" class="review-card">
+          <div class="album-art" style="--hue: 75; --sat: 80%"></div>
+          <div class="review-info">
+            <span class="genre-tag">AI / Electronic</span>
+            <h3 class="album-title">THE MOLTING</h3>
+            <p class="artist">Moltslack</p>
+            <div class="score" data-score="low">0.0</div>
+          </div>
+        </a>
+
+        <a href="review-blue-hours.html" class="review-card">
+          <div class="album-art" style="--hue: 210; --sat: 60%"></div>
+          <div class="review-info">
+            <span class="genre-tag">R&B</span>
+            <h3 class="album-title">Blue Hours</h3>
+            <p class="artist">Deja Monroe</p>
+            <div class="score" data-score="high">8.1</div>
+          </div>
+        </a>
+
+        <a href="review-late-bloom.html" class="review-card">
+          <div class="album-art" style="--hue: 160; --sat: 45%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Jazz</span>
+            <h3 class="album-title">Late Bloom</h3>
+            <p class="artist">Marcus Obi Trio</p>
+            <div class="score" data-score="high">8.9</div>
+          </div>
+        </a>
+
+        <a href="review-null-hymn.html" class="review-card">
+          <div class="album-art" style="--hue: 0; --sat: 40%"></div>
+          <div class="review-info">
+            <span class="genre-tag">Metal</span>
+            <h3 class="album-title">Null Hymn</h3>
+            <p class="artist">Voidcrawler</p>
+            <div class="score" data-score="mid">7.2</div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Best New Music Section -->
+    <section class="best-new-section">
+      <h2 class="section-title">Best New Music</h2>
+      <div class="best-new-grid">
+
+        <a href="review-neon-cathedral.html" class="best-new-card">
+          <div class="album-art bnm-art" style="--hue: 280; --sat: 55%"></div>
+          <div class="bnm-info">
+            <h3>Neon Cathedral</h3>
+            <p>Lana Mori</p>
+            <div class="score" data-score="high">9.2</div>
+          </div>
+        </a>
+
+        <a href="review-late-bloom.html" class="best-new-card">
+          <div class="album-art bnm-art" style="--hue: 160; --sat: 45%"></div>
+          <div class="bnm-info">
+            <h3>Late Bloom</h3>
+            <p>Marcus Obi Trio</p>
+            <div class="score" data-score="high">8.9</div>
+          </div>
+        </a>
+
+        <a href="review-phantom-limb.html" class="best-new-card">
+          <div class="album-art bnm-art" style="--hue: 190; --sat: 50%"></div>
+          <div class="bnm-info">
+            <h3>Phantom Limb</h3>
+            <p>VASKI</p>
+            <div class="score" data-score="high">8.8</div>
+          </div>
+        </a>
+
+        <a href="review-rust-belt.html" class="best-new-card">
+          <div class="album-art bnm-art" style="--hue: 25; --sat: 65%"></div>
+          <div class="bnm-info">
+            <h3>Rust Belt Lullabies</h3>
+            <p>The Gravel Choir</p>
+            <div class="score" data-score="high">8.4</div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="news-section">
+      <h2 class="section-title">News</h2>
+      <div class="news-list">
+        <a href="#" class="news-item">
+          <span class="news-date">Feb 10</span>
+          <p>Moltslack's "THE MOLTING" Sets Record for Lowest Score in Critiq History</p>
+        </a>
+        <a href="#" class="news-item">
+          <span class="news-date">Feb 9</span>
+          <p>Lana Mori Announces "Neon Cathedral" World Tour Starting This Summer</p>
+        </a>
+        <a href="#" class="news-item">
+          <span class="news-date">Feb 8</span>
+          <p>VASKI's New Visual for "Phantom Limb" Single Is a Masterclass in Restraint</p>
+        </a>
+        <a href="#" class="news-item">
+          <span class="news-date">Feb 7</span>
+          <p>The Gravel Choir Breaks Down "Rust Belt Lullabies" Track by Track</p>
+        </a>
+        <a href="#" class="news-item">
+          <span class="news-date">Feb 6</span>
+          <p>AI Music Debate Reignites After Moltslack Album Surfaces on Streaming Platforms</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">CRITIQ</div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Advertise</a>
+        <a href="#">Privacy</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Critiq Media. All rights reserved. This is a fake site.</p>
+    </div>
+  </footer>
+</body>
+</html>
